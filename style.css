@@ -1,0 +1,580 @@
+/* フォントメモ */
+
+/* Hiragino Kaku Gothic ProNフォントの3W
+font-family: "hiragino-kaku-gothic-pron", sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+/* Hiragino Kaku Gothic ProNフォントの6W 
+font-family: "hiragino-kaku-gothic-pron", sans-serif;
+font-weight: 600;
+font-style: normal; */
+
+
+.nav_ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* メインビジュアル */
+.nav_baall {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7.8em;
+}
+
+
+.nav_ba {
+    color: #83D3E2;
+    font-size: 2.48em;
+    margin-right: 0.61em;
+    margin-bottom: -0.4em;
+}
+
+.meun_visual {
+    display: flex;
+    align-items: flex-end;
+    margin: 7.2em auto;
+}
+
+.meun_h1 {
+    margin-bottom: 0.32em;
+    background-color: #83D3E2;
+    padding-left: 4px;
+    padding-right: 16px;
+    color: #FFFFFF;
+    width: 360px;
+    font-size: 3.5em;
+}
+
+.meun_p {
+    margin-right: 1.6em;
+    font-size: 25px;
+    line-height: 1.2em;
+}
+
+.meun_h5 {
+    margin-bottom: 1.0em;
+    font-size: 27px;
+}
+
+.meun_h3 {
+    font-size: 31px;
+}
+
+.meun_concept {
+    margin-left: 111px;
+}
+
+.image_earphone_img {
+    margin-right: 6.4em;
+}
+
+/* アバウト */
+
+.about_page {
+    margin: 0 auto;
+
+    padding: 140px auto 206px;
+    background: #83D3E2;
+    color: #fff;
+}
+
+.about_p {
+    font-size: 42px;
+    /* text-align: justify; */
+    line-height: 1.2;
+    letter-spacing: -2px;
+    margin: 0px 0 0 43px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 206px;
+}
+
+.about_h1 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    margin-top: 140px;
+}
+
+.about_h1_in_h1 {
+
+    width: 467px;
+    font-size: 6.3125em;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+.about_h1_in_h6 {
+    width: 281px;
+    font-size: 2.25em;
+    margin: 0px auto;
+    padding-top: 0em;
+}
+
+
+/* function */
+
+.function_page {
+    margin-bottom: 400px;
+}
+
+.function_h1 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    width: 397px;
+    margin: 0 auto;
+    margin-top: 283px;
+    font-size: 101px;
+    letter-spacing: -2px;
+}
+
+.function_h6 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    width: 160px;
+    margin: 0 auto;
+    margin-top: -17px;
+    font-size: 36px;
+    letter-spacing: -2px;
+}
+
+.fumction {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.function_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.function_box {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.number {
+    font-size: 35px;
+    font-weight: bold;
+    color: #83D3E2;
+    border: 2px solid #83D3E2;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 44px;
+    margin: 0 auto 10px;
+}
+
+.number_h2 {
+    /* Hiragino Kaku Gothic ProNフォントの6W  */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* ここまで */
+    line-height: 53px;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.number_p {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    font-size: 25px;
+    color: #333;
+}
+
+.divider {
+    margin-top: 10px;
+    width: 1px;
+    height: 263px;
+    background-color: #ccc;
+}
+
+/* ゲームについて */
+.geemu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.geemu_in {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    width: 80%;
+    margin: 50px auto;
+}
+
+/* 右側の画像 */
+.right-image {
+    width: 646px;
+    left: 460px;
+    margin-right: 0;
+    position: relative;
+    text-align: right;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* 浮かぶテキスト */
+.floating-text {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    text-align: center;
+    position: absolute;
+    background-color: #83d4e2ce;
+    color: white;
+    font-size: 32px;
+    padding: 25px 60px;
+    /* border-radius: 5px; */
+    transform: rotate(5deg);
+    line-height: 1.2;
+}
+
+.floating-text.top {
+    top: -20px;
+    right: -50px;
+    /* right: 10px; */
+}
+
+.floating-text.bottom {
+    bottom: -20px;
+    right: -60px;
+    transform: rotate(-5deg);
+}
+
+/* 左側のテキスト */
+.left-text {
+    width: 700px;
+    text-align: left;
+    position: absolute;
+}
+
+.title-box1 {
+    /* position: absolute; */
+    background-color: #83D3E2;
+    margin-bottom: 20px;
+    width: 590px;
+
+}
+
+.title-box2 {
+    /* position: absolute; */
+    background-color: #83D3E2;
+    margin-bottom: 151px;
+    width: 468px;
+}
+
+.title-box_h1_1 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    /* background-color: #83D3E2; */
+    /* width: 453px; */
+    padding: 11px 84px 10px 15px;
+    border-radius: 8px;
+    font-size: 61px;
+    /* font-weight: bold; */
+    color: #ffffff;
+}
+
+.title-box_h1_2 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+
+    /* background-color: #83D3E2; */
+    padding: 11px 26px 10px 15px;
+    /* border-radius: 8px; */
+    font-size: 61px;
+    /* font-weight: bold; */
+    color: #ffffff;
+}
+
+.features {
+    /* position: absolute; */
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.features_li {
+    /* Hiragino Kaku Gothic ProNフォントの6W  */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* ここまで */
+    width: 590px;
+    display: flex;
+    align-items: center;
+    /* height: 300px; */
+    font-size: 40px;
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #83D3E2;
+}
+
+.border {
+    width: 20px;
+    /* 幅（変数で調整可能） */
+    height: 20px;
+    /* 高さ（幅と同じにすることで円形になる） */
+    background-color: #83D3E2;
+    /* 水色 */
+    border-radius: 50%;
+    /* 完全な円にする */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    /* 立体感を出す影 */
+    margin-right: 10px;
+    margin-left: 6px;
+
+}
+
+
+
+.big-text {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    font-size: 39px;
+    /* 通常より大きくする */
+    /* font-weight: bold; */
+    /* 文字を太くする（オプション） */
+}
+
+.big-text_1 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    font-size: 35px;
+    /* 通常より大きくする */
+    /* font-weight: bold; */
+    /* 文字を太くする（オプション） */
+}
+
+
+/* コンセプト */
+.conseputo {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    background: #83D3E2;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 313px;
+}
+
+.con_h1 {
+    font-size: 84px;
+    margin-bottom: 197px;
+}
+
+.con_honbun {
+    text-align: left;
+    padding: 158px 109px 143px 185px;
+}
+
+.con_honbun p {
+    font-size: 37px;
+}
+
+.con_p1,
+.con_p2 {
+    margin-bottom: 69px;
+}
+
+
+/* 価格 */
+/* 全体のスタイル */
+.kakaku {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* コンテナ */
+
+/* タイトル */
+.kakaku_h1 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    font-size: 101px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.kakaku_h6 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    font-size: 36px;
+    color: #666;
+    margin: 10px 0 30px;
+}
+
+.kakaku_h2 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+}
+
+/* 波の背景 */
+.wave-section {
+    position: relative;
+
+    /* border-radius: 50px 50px 0 0; */
+}
+
+/* 波の形状を作成 */
+.kakaku_honbun {
+    position: absolute;
+    top: 155px;
+    width: 100%;
+}
+
+/* イヤホン販売タイトル */
+.kakaku_h2 {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* 価格表示 */
+.price {
+    font-size: 24px;
+    color: white;
+    letter-spacing: -4px;
+}
+
+/* 円マーク */
+.yen {
+    /* Hiragino Kaku Gothic ProNフォントの3W */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* ここまで */
+    font-size: 42px;
+    letter-spacing: -2px;
+}
+
+/* 旧価格（赤字・打ち消し線付き） */
+.old-price {
+    /* Hiragino Kaku Gothic ProNフォントの6W  */
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* ここまで */
+    font-size: 89px;
+    font-weight: bold;
+    color: red;
+    letter-spacing: -4px;
+}
+
+
+
+/* FAQ */
+.faq-page {
+    padding-top: 200px;
+}
+
+.faq-h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.faq-p {
+    text-align: center;
+}
+
+.faq {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.faq-anser {
+    font-size: 23px;
+    padding-top: 30px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.faq-anser img {
+    object-fit: scale-down;
+}
+
+.footer-page {
+
+    padding-top: 300px;
+    margin-left: 100px;
+
+}
+
+footer {
+    text-align: right;
+    margin-right: 20px;
+    color: #83D3E2;
+    padding-top: 40px;
+}
